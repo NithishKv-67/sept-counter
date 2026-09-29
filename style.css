@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(46, 45, 45);
+    margin: 0;
+}
+
+.heading{
+    color:rgb(71, 179, 179);
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.heading:hover{
+    color: aqua;
+}
+
+.heading:active{
+    color: azure;
+}
+.step_count{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+
+.act_butt{
+    background: none;
+    height: 150px;
+    width: 50px;
+    border: none;
+    border-radius:10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: rgb(84, 165, 219);
+    text-align: center;
+    overflow: hidden;
+}
+
+.act_butt:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.act_butt:active{
+    background-color: azure;
+}
+
+#Counter_id{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(84, 165, 219);
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+}
+
+.re_set{
+    text-align: center;
+    background: none;
+    height: 50px;
+    width: 200px;
+    border: 2px solid;
+    border-radius: 20px;
+    justify-self: center;
+    background-color: rgb(84, 165, 219);
+}
+
+.re_set:hover{
+    background-color: aqua;
+}
+
+.re_set:active{
+    background-color: azure;
+}
+
+.c2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
